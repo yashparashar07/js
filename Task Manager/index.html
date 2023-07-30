@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager</title>
+</head>
+<body>
+  <h1>Task Manager</h1>
+  <div id="addTaskForm">
+    <input type="text" id="taskNameInput" placeholder="Enter task name">
+    <input type="date" id="dueDateInput">
+    <select id="prioritySelect">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <select id="projectSelect">
+      <option value="Personal">Personal</option>
+      <option value="Work">Work</option>
+      <!-- Add more projects dynamically -->
+    </select>
+    <button onclick="addTask()">Add Task</button>
+  </div>
+
+  <div id="projects">
+    <h2>Projects:</h2>
+    <select id="projectFilter" onchange="displayTasks()">
+      <option value="all">All</option>
+      <!-- Add options for projects dynamically -->
+    </select>
+  </div>
+
+  <div id="taskList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

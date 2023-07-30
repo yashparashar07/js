@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #addTaskForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #addTaskForm input,
+  #addTaskForm select {
+    padding: 5px;
+    margin: 5px;
+    flex: 1;
+  }
+  
+  #addTaskForm button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex: 0 0 100px;
+  }
+  
+  #addTaskForm button:hover {
+    background-color: #45a049;
+  }
+  
+  #projects {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #projectFilter {
+    padding: 5px;
+  }
+  
+  .task-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .task-item h3 {
+    margin: 0;
+  }
+  
+  .task-item button {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex: 0 0 100px;
+  }
+  
+  .task-item button.edit-button {
+    background-color: #ff9800;
+  }
+  
+  .task-item button.delete-button {
+    background-color: #f44336;
+  }
+  
+  .task-item button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #addTaskForm {
+      flex-direction: column;
+    }
+  
+    #addTaskForm input,
+    #addTaskForm select,
+    #addTaskForm button {
+      width: 100%;
+    }
+  }
+  
