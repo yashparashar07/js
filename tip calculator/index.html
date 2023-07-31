@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tip Calculator</h1>
+    <label for="billAmount">Bill Amount:</label>
+    <input type="number" id="billAmount" step="0.01" />
+    <span class="error" id="billAmountError"></span>
+
+    <label for="tipPercentage">Tip Percentage:</label>
+    <input type="number" id="tipPercentage" step="1" />
+    <span class="error" id="tipPercentageError"></span>
+
+    <label for="customTipAmount">Custom Tip Amount:</label>
+    <input type="number" id="customTipAmount" step="0.01" />
+    <span class="error" id="customTipAmountError"></span>
+
+    <label for="splitBill">Split Bill Among:</label>
+    <input type="number" id="splitBill" step="1" value="1" />
+    <span class="error" id="splitBillError"></span>
+
+    <button onclick="calculateTip()">Calculate Tip</button>
+
+    <h2>Tip Amount: <span id="tipAmount">0.00</span></h2>
+    <h2>Total Amount: <span id="totalAmount">0.00</span></h2>
+    <h2>Amount per Person: <span id="amountPerPerson">0.00</span></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
