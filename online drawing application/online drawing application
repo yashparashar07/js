@@ -1,0 +1,38 @@
+# Online Drawing App
+
+The Online Drawing App is a simple web-based application that allows users to draw and create artwork using their mouse or touch input. The app provides various drawing tools, including different colors, brush sizes, an eraser, undo functionality, and the ability to save the drawing as an image.
+
+## Features
+
+- Drawing: Users can draw on the canvas using their mouse or touch input.
+- Color Picker: Users can choose from a wide range of colors to draw with.
+- Brush Size Slider: Users can adjust the size of the brush for thicker or thinner lines.
+- Eraser Tool: The app provides an eraser mode that allows users to erase drawn lines.
+- Undo Functionality: Users can undo the last drawn line to correct mistakes.
+- Clear Canvas: Users can clear the entire canvas to start fresh.
+- Save Drawing: Users can save their artwork as a PNG image for download.
+
+## Technologies Used
+
+- HTML: The structure and layout of the app are created using HTML.
+- CSS: The styling and appearance of the app are defined using CSS.
+- JavaScript: The interactive functionality of the app is implemented using JavaScript.
+- Canvas API: The drawing functionality is built using the HTML5 Canvas API.
+
+
+## How to Use
+
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your web browser.
+3. The canvas will be displayed, and you can start drawing with the default black color and brush size.
+4. Use the color picker to select a different drawing color.
+5. Adjust the brush size using the brush size slider.
+6. Check the "Eraser" checkbox to switch to eraser mode and erase drawn lines.
+7. Click the "Undo" button to undo the last drawn line.
+8. Click the "Clear" button to clear the entire canvas.
+9. Click the "Save" button to download your drawing as a PNG image.
+
+## Contributing
+
+Contributions to the Online Drawing App are welcome! If you find any bugs, have suggestions for new features, or want to improve the code, feel free to create a pull request or open an issue.
+
