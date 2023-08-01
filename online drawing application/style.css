@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+  }
+  /* ...previous CSS styles... */
+  
+  .controls {
+    margin-top: 10px;
+  }
+  
+  .controls input {
+    margin-right: 10px;
+  }
+  
+  .controls button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

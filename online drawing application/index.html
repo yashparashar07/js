@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Drawing App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <div class="controls">
+      <input type="color" id="colorPicker" value="#000000" />
+      <input type="range" id="brushSize" min="1" max="50" value="5" />
+      <button onclick="clearCanvas()">Clear</button>
+      <button onclick="undo()">Undo</button>
+      <button onclick="saveImage()">Save</button>
+      <label for="eraser">Eraser</label>
+      <input type="checkbox" id="eraser" onchange="setEraser()" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
